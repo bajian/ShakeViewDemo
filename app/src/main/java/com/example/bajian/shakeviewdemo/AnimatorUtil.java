@@ -11,7 +11,6 @@ import android.view.View;
  */
 public class AnimatorUtil {
 
-
     /**
      * 上下抖动。就是对view的x轴和y轴进行0.9倍到1.1倍的缩放，同时对view进行一定角度的上下旋转
      * @param view
@@ -55,13 +54,13 @@ public class AnimatorUtil {
                 Keyframe.ofFloat(0f, 0f),
                 Keyframe.ofFloat(.1f, -3f * shakeFactor),
                 Keyframe.ofFloat(.2f, -3f * shakeFactor),
-                Keyframe.ofFloat(.3f, 3f * shakeFactor),
-                Keyframe.ofFloat(.4f, -3f * shakeFactor),
-                Keyframe.ofFloat(.5f, 3f * shakeFactor),
-                Keyframe.ofFloat(.6f, -3f * shakeFactor),
-                Keyframe.ofFloat(.7f, 3f * shakeFactor),
-                Keyframe.ofFloat(.8f, -3f * shakeFactor),
-                Keyframe.ofFloat(.9f, 3f * shakeFactor),
+                Keyframe.ofFloat(.3f, -3f * shakeFactor),
+                Keyframe.ofFloat(.4f, 3f * shakeFactor),
+                Keyframe.ofFloat(.5f, -3f * shakeFactor),
+                Keyframe.ofFloat(.6f, 3f * shakeFactor),
+                Keyframe.ofFloat(.7f, -3f * shakeFactor),
+                Keyframe.ofFloat(.8f, 3f * shakeFactor),
+                Keyframe.ofFloat(.9f, -3f * shakeFactor),
                 Keyframe.ofFloat(1f, 0)
         );
 

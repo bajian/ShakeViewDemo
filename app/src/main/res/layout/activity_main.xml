@@ -6,12 +6,13 @@
              android:paddingRight="@dimen/activity_horizontal_margin"
              android:paddingTop="@dimen/activity_vertical_margin"
              android:paddingBottom="@dimen/activity_vertical_margin"
-             tools:context=".MyActivity">
+             tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/attention_seeker"
+        android:drawableTop="@mipmap/ic_launcher"
         android:layout_gravity="center"
-        android:text="click me"
+        android:text="sway"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="8dp"
@@ -22,7 +23,7 @@
         android:layout_marginTop="80dp"
         android:id="@+id/nope"
         android:layout_gravity="center"
-        android:text="nope"
+        android:text="shake"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="8dp"
